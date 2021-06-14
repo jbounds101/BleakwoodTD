@@ -12,6 +12,7 @@
     {"id":{"name":"s_gui_guide","path":"sprites/s_gui_guide/s_gui_guide.yy",},"order":3,},
     {"id":{"name":"ts_forest_path","path":"tilesets/ts_forest_path/ts_forest_path.yy",},"order":0,},
     {"id":{"name":"s_enemy","path":"sprites/s_enemy/s_enemy.yy",},"order":0,},
+    {"id":{"name":"o_ui_element","path":"objects/o_ui_element/o_ui_element.yy",},"order":3,},
     {"id":{"name":"r_initialize","path":"rooms/r_initialize/r_initialize.yy",},"order":0,},
   ],
   "Options": [
