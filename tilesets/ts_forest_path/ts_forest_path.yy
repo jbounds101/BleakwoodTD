@@ -1,5 +1,4 @@
 {
-  "name": "ts_forest_path",
   "spriteId": {
     "name": "s_forest_tile",
     "path": "sprites/s_forest_tile/s_forest_tile.yy",
@@ -120,6 +119,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ts_forest_path",
   "tags": [],
   "resourceType": "GMTileSet",
 }
