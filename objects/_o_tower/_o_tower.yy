@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_knight_tower",
-    "path": "sprites/s_knight_tower/s_knight_tower.yy",
+    "name": "s_knight_slot",
+    "path": "sprites/s_knight_slot/s_knight_slot.yy",
   },
   "solid": false,
   "visible": true,
