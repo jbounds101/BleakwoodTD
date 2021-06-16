@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_ui_element",
+  "name": "_o_ui_element",
   "tags": [],
   "resourceType": "GMObject",
 }
