@@ -1,0 +1,1 @@
+left_click_held = mouse_check_button(mb_left);
