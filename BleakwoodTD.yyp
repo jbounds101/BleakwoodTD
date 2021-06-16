@@ -1,7 +1,7 @@
 {
   "resources": [
-    {"id":{"name":"r_game","path":"rooms/r_game/r_game.yy",},"order":1,},
     {"id":{"name":"s_hud","path":"sprites/s_hud/s_hud.yy",},"order":8,},
+    {"id":{"name":"r_game","path":"rooms/r_game/r_game.yy",},"order":1,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"p_forest","path":"paths/p_forest/p_forest.yy",},"order":0,},
     {"id":{"name":"buy_unit","path":"scripts/buy_unit/buy_unit.yy",},"order":2,},
