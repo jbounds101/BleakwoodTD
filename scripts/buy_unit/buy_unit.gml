@@ -9,6 +9,10 @@ function buy_unit(_unit){
 					o_game.gold -= _unit.cost;
 					o_game.unit_slots[| i].current_unit = _unit;
 					o_game.empty_slots -= 1;
+					with o_game.unit_slots[| i] {
+						y_direction_towards_mouse = y + (sprite_height / 2) + 
+							sprite_get_height(object_get_sprite(current_unit)) + unit_y_offset
+					}
 					show_debug_message(object_get_name(_unit) + " was bought");
 					return true;
 				}
