@@ -6,6 +6,7 @@
     {"id":{"name":"p_forest","path":"paths/p_forest/p_forest.yy",},"order":0,},
     {"id":{"name":"buy_unit","path":"scripts/buy_unit/buy_unit.yy",},"order":2,},
     {"id":{"name":"f_description","path":"fonts/f_description/f_description.yy",},"order":0,},
+    {"id":{"name":"f_bottom_hud","path":"fonts/f_bottom_hud/f_bottom_hud.yy",},"order":1,},
     {"id":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},"order":2,},
     {"id":{"name":"s_forest_tile","path":"sprites/s_forest_tile/s_forest_tile.yy",},"order":1,},
     {"id":{"name":"ENUMS","path":"scripts/ENUMS/ENUMS.yy",},"order":0,},

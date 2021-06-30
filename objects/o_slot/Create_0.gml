@@ -14,6 +14,10 @@ bottom_hud_line_spacing = 30;
 bottom_hud_text_spacing = 20;
 // The space between attribute numbers
 
+divider_character = "|";
+// The character that divides attribute numbers
+divider_color = make_color_rgb(13, 13, 13);
+
 
 ds_list_add(o_game.unit_slots, self);
 current_unit = noone;

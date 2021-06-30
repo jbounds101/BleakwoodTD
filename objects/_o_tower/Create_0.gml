@@ -4,8 +4,8 @@ description = "A basic tower. This tower has a really long description because i
 " since removing it would take too much time and effort, silly.";
 tier = unit_tiers.common;
 damage = [1, 1.5, 2];
-attack_delay = [1, 0.75, 0.5];
-range = array_create = [100, 150, 200]
+attack_speed = [60, 80, 100];
+range = [100, 150, 200];
 
 
 
