@@ -32,10 +32,41 @@ if current_unit != noone {
 			
 			draw_set_font(f_description);
 			draw_set_valign(fa_bottom);
-			level_string = "Level: " + string(current_unit.level + 1);
-			draw_text_ext_transformed_color(bottom_hud_x + bottom_hud_text_x_offset, bottom_hud_y + bottom_hud_text_y_offset,
-				level_string, 0, 200, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
 			
+			current_line = 0;
+	
+			level_string = "Level: " + string(current_unit.level + 1);
+			draw_text_ext_transformed_color(bottom_hud_x + bottom_hud_text_x_offset, bottom_hud_y + bottom_hud_text_y_offset + 
+			(bottom_hud_line_spacing * current_line), level_string, 0, 200, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
+			current_line++;
+				
+			current_string = "Damage:";
+			draw_text_ext_transformed_color(bottom_hud_x + bottom_hud_text_x_offset, bottom_hud_y + bottom_hud_text_y_offset + 
+			(bottom_hud_line_spacing * current_line), current_string, 0, 200, 1, 1, 0, c_white, c_white, c_white, c_white, 1);
+			string_end_location = string_width_ext(current_string, 0, 200) + string_width(":");
+			
+			number_width = 0;
+			for (var i = 0; i < 3; ++i) {
+				string_color = c_gray;
+				if current_unit.level == i {
+					string_color = c_white;
+				}
+				
+				peep = string(current_unit.damage[i]);
+				
+				
+		
+	
+	
+				draw_text_ext_transformed_color(bottom_hud_x + bottom_hud_text_x_offset + string_end_location + number_width, 
+					bottom_hud_y + bottom_hud_text_y_offset + (bottom_hud_line_spacing * current_line), 
+					string(current_unit.damage[i]), 
+					0, 200, 1, 1, 0, string_color, string_color, string_color, string_color, 1);
+				number_width = string_width_ext(current_unit.damage[i], 0, 200) + bottom_hud_text_spacing;
+			}
+			current_line++;
+			
+ 			
 			
 			x_direction_towards_mouse = lerp(x_direction_towards_mouse, (x + (sprite_width / 2) + mouse_gui_x) / 2, 0.05);
 			y_direction_towards_mouse = lerp(y_direction_towards_mouse, ((y + sprite_height / 2 + 
